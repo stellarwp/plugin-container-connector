@@ -1,0 +1,21 @@
+{
+    "name": "stellarwp/plugin-container-connector",
+    "description": "A connector for retrieving a plugin's unique container for a call",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jason Adams",
+            "email": "jason.adams@givewp.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "StellarWP\\ContainerConnector\\": "src/"
+        },
+        "files": [
+            "src/helper.php"
+        ]
+    }
+}
