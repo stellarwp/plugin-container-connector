@@ -69,7 +69,12 @@ and more likely, would be problems with aliases. In GiveWP, for example, someone
 It's not at all unrealistic that this could lead to conflicts as multiple plugins vie for the
 same alias. This could lead to StellarWP turf wars and choreographed dance fights. Who wants that?
 
-#### 3. Something else?
+#### 3. Make use of [Strauss](https://github.com/BrianHenryIE/strauss) (Mozart)
+If we all committed to using Strauss to apply namespacing to our vendor packages when bundling, then
+it would be possible to have a simple container setter within the packages. The reason being that each
+plugin would have its own unique version of the package.
+
+#### 4. Something else?
 I'm completely open to alternatives and wanted to start the conversation. The Service Container is
 (I think appropriately) a central piece of the GiveWP architecture. To effectively share code in
 StellarWP this challenge will need to be reliably handled.
